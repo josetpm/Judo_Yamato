@@ -11,7 +11,7 @@ __pycache__/
 *.log
 *.pot
 *.pyc
-
+*.yaml
 
 # Configuraciones de desarrollo locales
 *.env
