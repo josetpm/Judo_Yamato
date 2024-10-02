@@ -10,5 +10,5 @@ services:
       DB_NAME: judoyamato
       DB_USER: postgres
       DB_PASSWORD: super_P5QL
-      DB_HOST: localhost
+      DB_HOST: dpg-crunj6qj1k6c73b5fa10-a
       DB_PORT: 5432
