@@ -1,3 +1,17 @@
+#Entorno virtual
 /venv
-manage.py
 
+
+# Archivos de caché y archivos temporales
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.tmp
+*.log
+*.pot
+*.pyc
+
+
+# Configuraciones de desarrollo locales
+*.env

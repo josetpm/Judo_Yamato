@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}    
+<head>
+    <meta charset="UTF-8">
+    <title>Judo Yamato-Calendar</title>
+</head> 
+
+<main class="container py-3">
+    <section class="card card-body d-flex justify-content-center align-items-center bg-dark">
+        <div >
+            <h1 class="display-1 text-light text-center">CALENDAR</h1>
+            <div class = "card card-body d-flex justify-content-center align-items-center bg-dark">
+                <iframe 
+                    src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FMadrid&bgcolor=%230B8043&showPrint=0&showCalendars=0&showTitle=0&showTz=0&hl=es&src=anVkby55YW1hdG8uY2x1YkBnbWFpbC5jb20&src=ZW4uc3BhaW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%230B8043" 
+                    style="border-width:0" 
+                    width="800" 
+                    height="600" 
+                    frameborder="0" 
+                    scrolling="no">
+                </iframe>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}
