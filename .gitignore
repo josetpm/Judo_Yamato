@@ -15,3 +15,7 @@ __pycache__/
 
 # Configuraciones de desarrollo locales
 *.env
+
+
+#secretkye
+secretkey.py
