@@ -19,6 +19,6 @@ python manage.py migrate
 
 # Crear un superusuario sin interacción, si no existe
 echo "Creando superusuario..."
-python manage.py createsuperuser --noinput --username superuser --password Pass_Word5 --email judo.yamato.club@gmail.com || true
+python manage.py createsuperuser --noinput --username superuser --email judo.yamato.club@gmail.com || true
 
 echo "Proceso de construcción completado."
