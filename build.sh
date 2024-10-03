@@ -19,6 +19,9 @@ python manage.py migrate
 
 # Crear un superusuario sin interacción, si no existe
 echo "Creando superusuario..."
+
+export DJANGO_SUPERUSER_PASSWORD=Pass_Word5
+
 python manage.py createsuperuser --noinput --username superuser --email judo.yamato.club@gmail.com || true
 
 echo "Proceso de construcción completado."
