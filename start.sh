@@ -1,8 +1,19 @@
 # Ejecutar migraciones al iniciar la app
+echo "EJECUTA LAS MIGRACIONES 
+    AA
+    A
+    A
+    A
+    A
+    A
+    A
+
+    A
+    A
+    A"
 python manage.py makemigrations
 python manage.py migrate
-echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 python createsuperuser.py
 
 # Iniciar el servidor de Django
-gunicorn wsgi.py
+gunicorn judoyamato.wsgi
