@@ -4,21 +4,17 @@
 <main class="container py-3 ">
     <section class="card card-body bg-dark text-light ">
         <h1 class="display-1 text-center">INICIO</h1>
-        {% if new %}
-            {% for new in news %}
-                <div >
-                    <div class="row g-0 m-3 border border-success border-5 card-body text-dark bg-secondary rounded">
-                        <div class="col-md-2 ">
-                            <a href="/uploadpdf" class="nav-link"></a>
+        {% if news %}
+            {% for single_new in news %}
+                <div class="row g-0 m-3 border border-success border-5 card-body text-dark bg-secondary rounded">
+                    <div class="col-md-8 ">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ single_new.title }}</h5>
+                            <span class="card-text ">{{ single_new.description }}</span><br>
+                            <small class="card-text">Publicado el {{ single_new.upload_date }}</small>
                         </div>
-                        <div class="col-md-8 ">
-                            <div class="card-body">
-                                <h5 class="card-title">{{ new.title }}</h5>
-                                <span class="card-text ">{{ new.description }}</span><br>
-                                <small class="card-text">Publicado el {{ new.upload_date }}</small>
-                            </div>
-                        </div>
-                </div>
+                    </div> 
+                </div>                
             {% endfor %}
         {% else %}
             <p>No hay noticias disponibles.</p>
