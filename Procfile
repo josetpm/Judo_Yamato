@@ -1,1 +1,1 @@
-web: gunicorn judoyamato.wsgi:application --log-file -
+web: ./start.sh
